@@ -1,0 +1,12 @@
+Javascript - https://user-images.githubusercontent.com/52508045/208267256-6ee2b2f7-0854-4cab-b25b-246cc16c62d7.png
+HTML - https://user-images.githubusercontent.com/52508045/208267318-b5ff2f40-f41c-4f16-8495-4b3da1b93b5b.png
+MySQL - https://user-images.githubusercontent.com/52508045/208753204-91c0fe91-4665-416c-a65d-efb128ffc87e.png
+CSS - https://user-images.githubusercontent.com/52508045/208763674-f12af6fe-7a6f-4d87-a852-26cd3a7c657a.png
+React - https://user-images.githubusercontent.com/52508045/208764363-fcde75c2-3eb3-4c98-b027-2566facdac6f.png
+tailwind - https://user-images.githubusercontent.com/52508045/208765037-bb7a2121-6f02-43a1-a372-74ef9e161a49.png
+node - https://user-images.githubusercontent.com/52508045/208768517-b104c8af-331b-4f6b-9a89-c4de16ce6288.png
+mongoDB - https://user-images.githubusercontent.com/52508045/208768799-389e1b72-605f-4dd0-9f32-d5670c8234f0.png
+jest - https://user-images.githubusercontent.com/52508045/208769164-0098624e-bc8f-42fc-b2ba-ae7f0ca71639.png
+mocha - https://user-images.githubusercontent.com/52508045/208769863-2a707f42-90e0-423d-bb7c-c5a5078d1f47.svg
+chai - https://user-images.githubusercontent.com/52508045/208770034-990430b7-115d-4235-b47b-c26be4a8db9e.png
+docker - https://user-images.githubusercontent.com/52508045/208770375-c308c586-1cfd-447e-af89-40a7e916d298.png

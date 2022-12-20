@@ -6,16 +6,17 @@ type Props = {};
 export default function About({}: Props) {
   return (
     <motion.div
-	initial={{
-		opacity: 0
-	}}
-	whileInView={{
-		opacity:1,
-	}}
-	transition={{
-		duration: 1.5
-	}}
-	className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+      initial={{
+        opacity: 0,
+      }}
+      whileInView={{
+        opacity: 1,
+      }}
+      transition={{
+        duration: 1.5,
+      }}
+      className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
+    >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
@@ -46,12 +47,12 @@ export default function About({}: Props) {
           background:
         </h4>
         <p className="text-base">
-          Sou apaixonado por tecnologia desde cedo, na adolescência comecei a me
-          aventurar com Javascript e HTML, acabei me distanciando da área por um
-          tempo, mas percebi que esta é minha paixão. Buscando novos desafios,
-          agora, estou estudando um novo segmento: Desenvolvimento Web Full
-          Stack na Trybe. Vejo a tecnologia como uma importante ferramenta para
-          mudarmos o mundo e quero contribuir para isso.
+          Ever since I was young, I’ve been in love with technology, in my
+          teenage years I explored Javascript and HTML. For a little while there
+          I distanced myself from the area, but now I see it as my passion. Now
+          looking for challenges I’ve been studying a new segment: Full Stack
+          Web Development on Trybe. I see technology as a important tool to
+          change the world and I want to be a part of that.
         </p>
       </div>
     </motion.div>
