@@ -43,7 +43,7 @@ export default function Header({}: Props) {
           />
         </motion.div>
 
-        <Link href="#contact">
+        <Link href="#contact" legacyBehavior>
           <motion.div //animação do contact esqueda <= direita
             initial={{
               x: 500,

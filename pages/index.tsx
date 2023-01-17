@@ -13,8 +13,8 @@ import Skills from '../components/Skills'
 import styled from 'styled-components'
 import {CodeAlt} from '@styled-icons/boxicons-regular/CodeAlt'
 
-const PurpleCdde = styled(CodeAlt)`
-  color: #8861de;
+const PurpleCode = styled(CodeAlt)`
+  color: #8861DE;
 `
 
 
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
       <Link href="#hero">
         <footer className='sticky bottom-5 w-full cursor-pointer'>
           <div className='flex items-center justify-center'>
-            <PurpleCdde className='h-10 w-10'/>
+            <PurpleCode className='h-10 w-10'/>
           </div>
         </footer>
       </Link>

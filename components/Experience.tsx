@@ -27,9 +27,6 @@ export default function Experience({}: Props) {
     	 scrollbar-track-gray-400/20 scrollbar-thumb-[#8861de]/80"
       >
         <ExperienceCard />
-        <ExperienceCard />
-		<ExperienceCard />
-
       </div>
     </motion.div>
   );

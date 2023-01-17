@@ -14,7 +14,9 @@ export default function Projects({}: Props) {
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin
     	 scrollbar-track-gray-400/20 scrollbar-thumb-[#8861de]/80">
-        {projArray.map((project, i) => (
+        {projArray.map((project, i) => {
+          if(project.type == 'img') {
+            return (
           <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
             <img
               className="h-80"
@@ -24,7 +26,7 @@ export default function Projects({}: Props) {
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
                 <span className="underline decoration-[#8861de]/90">
-                  Projeto {i + 1}:
+                  Project {i + 1}:
                 </span>{" "}
                 {project.name}
               </h4>
@@ -34,7 +36,28 @@ export default function Projects({}: Props) {
               </p>
             </div>
           </div>
-        ))}
+        )} else {
+          return (
+            <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+              <video className="h-80" controls>
+                <source src={project.projectVideo} />
+              </video>
+  
+              <div className="space-y-10 px-0 md:px-10 max-w-6xl">
+                <h4 className="text-4xl font-semibold text-center">
+                  <span className="underline decoration-[#8861de]/90">
+                    Project {i + 1}:
+                  </span>{" "}
+                  {project.name}
+                </h4>
+  
+                <p className="text-lg text-center md:text-left">
+                  {project.text}
+                </p>
+              </div>
+            </div>
+          )
+        }})}
       </div>
 
       <div className="w-full absolute top-[30%] bg-[#AB51E3]/10 left-0 h-[500px] -skew-y-12" />
